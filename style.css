@@ -17,3 +17,11 @@ a:hover,
 .pic:visited {
   color: red;
 }
+.div_empty:empty {
+  background-color: red;
+  height: 100px;
+}
+h2:target {
+  opacity: 50%;
+  color: red;
+}
