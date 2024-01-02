@@ -8,6 +8,12 @@ p:hover {
 }
 a:hover,
 :active {
-  color: red;
+  color: blue;
   opacity: 50%;
+}
+.pic:link {
+  color: red;
+}
+.pic:visited {
+  color: red;
 }
