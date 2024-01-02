@@ -25,3 +25,22 @@ h2:target {
   opacity: 50%;
   color: red;
 }
+.Danhmuc {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  background-color: red;
+}
+div p {
+  color: white;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+a {
+  color: white;
+}
+#Sup:active {
+  border: solid black;
+}
