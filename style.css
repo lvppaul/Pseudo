@@ -5,5 +5,9 @@
 }
 p:hover {
   color: red;
+}
+a:hover,
+:active {
+  color: red;
   opacity: 50%;
 }
