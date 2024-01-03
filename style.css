@@ -3,13 +3,6 @@
   text-decoration: none;
   color: black;
 }
-p:hover {
-  color: red;
-}
-a:hover {
-  color: blue;
-  opacity: 50%;
-}
 .pic:link {
   color: red;
 }
@@ -27,17 +20,19 @@ h2:target {
 .Danhmuc {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-
   background-color: red;
 }
-
+div[class="Danhmuc"] p:hover {
+  color: white;
+}
+a:hover {
+  color: white;
+}
 li {
   list-style-type: none;
   padding: 10px;
 }
-div[class="DanhMuc"] a {
-  color: white;
-}
+
 div[class="web"] li:hover {
   color: red;
 }
