@@ -41,6 +41,6 @@ li {
 a {
   color: white;
 }
-#Sup:active {
-  border: solid black;
+div[class="web"] li:hover {
+  color: red;
 }
