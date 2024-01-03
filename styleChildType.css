@@ -1,0 +1,6 @@
+.child p:first-child {
+  color: red;
+}
+.childType p:first-of-type {
+  color: red;
+}
