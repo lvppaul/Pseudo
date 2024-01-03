@@ -1,6 +1,12 @@
 #uId {
-  color: yellow;
+  color: black;
 }
 .uClass {
   color: red;
+}
+.uClass h1:not(:first-of-type) {
+  background-color: green;
+}
+.uClass p:not(:nth-of-type(2)) {
+  background-color: yellow;
 }
