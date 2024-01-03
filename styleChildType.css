@@ -4,3 +4,9 @@
 .childType p:first-of-type {
   color: red;
 }
+.childType p:nth-of-type(2) {
+  color: blue;
+}
+.childType p:nth-of-type() {
+  color: green;
+}
