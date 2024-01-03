@@ -31,14 +31,12 @@ h2:target {
 
   background-color: red;
 }
-div p {
-  color: white;
-}
+
 li {
   list-style-type: none;
   padding: 10px;
 }
-a {
+div[class="DanhMuc"] a {
   color: white;
 }
 div[class="web"] li:hover {
