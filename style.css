@@ -1,38 +1,4 @@
-* {
-  font-size: 38px;
-  text-decoration: none;
-  color: black;
-}
-.pic:link {
+h1 {
   color: red;
-}
-.pic:visited {
-  color: red;
-}
-.div_empty:empty {
-  background-color: red;
-  height: 100px;
-}
-h2:target {
-  opacity: 50%;
-  color: red;
-}
-.Danhmuc {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  background-color: red;
-}
-div[class="Danhmuc"] p:hover {
-  color: white;
-}
-a:hover {
-  color: white;
-}
-li {
-  list-style-type: none;
-  padding: 10px;
-}
-
-div[class="web"] li:hover {
-  color: red;
+  text-align: center;
 }
